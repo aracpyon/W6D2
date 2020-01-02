@@ -99,5 +99,14 @@ ArtworkShare.create(artwork_id: self_portrait_necklace.id, viewer_id: ara.id)
 ArtworkShare.create(artwork_id: starry_night.id, viewer_id: ara.id)
 ArtworkShare.create(artwork_id: starry_night.id, viewer_id: jay.id)
 
+Comment.create(user_id: jay.id, artwork_id: starry_night.id, body: 'This painting reminds me of a romantic night stroll through Paris.')
+Comment.create(user_id: ara.id, artwork_id: black_iris.id, body: 'I love her works! My favorite')
+Comment.create(user_id: ara.id, artwork_id: starry_night.id, body: 'I used to be obssessed with his works')
+Comment.create(user_id: akeem.id, artwork_id: monalisa.id, body: 'Wow')
+Comment.create(user_id: phong.id, artwork_id: venus_is_born.id, body: 'This work is so vibrant!')
+Comment.create(user_id: ciel.id, artwork_id: black_iris.id, body: 'This is a bold representation of feminity.')
+Comment.create(user_id: jay.id, artwork_id: persistence_of_memory.id, body: 'This is a fascinating piece.')
+Comment.create(user_id: alex.id, artwork_id: venus_is_born.id, body: 'I didnt know you could paint!')
+
 puts 'Seeding complete'
 end
